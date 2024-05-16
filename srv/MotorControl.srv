@@ -1,0 +1,4 @@
+# MotorControl.srv
+float32 speed
+---
+bool success

@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="flymate" type="param_node.py" name="param_node" output="screen"/>
+    <node pkg="flymate" type="controller_node.py" name="controller_node" output="screen"/>
+    <node pkg="flymate" type="lidar_pub.py" name='lidar_node' output="screen"/>
+    <node pkg="flymate" type="imu_pub.py" name='imu_node' output="screen"/>
+    <node pkg="flymate" type="gps_pub.py" name='gps_node' output="screen"/>
+    <node pkg="flymate" type="motor.py" name='motor_node' output="screen"/>
+    <node pkg="flymate" type="flight_path_server.py" name='flight_path_drone' output="screen"/>
+</launch>
